@@ -1,0 +1,246 @@
+/* 768  以上 */
+@media not screen and (max-width: 768px) {
+  .content {
+    width: 100%;
+    height: 18.75rem;
+    background-color: #2D2765;
+    background-image: url("../assets/imgsforwork/1440_bg.png");
+    background-size: cover;
+    display: flex;
+  }
+  .content .personImg {
+    width: 21rem;
+    height: 18.75rem;
+    background-image: url("../assets/imgsforwork/1440_person.png");
+    background-size: cover;
+  }
+  .content .text {
+    width: 19.5rem;
+    height: 10.75rem;
+    margin: auto 16.25rem auto 5.5rem;
+    font-family: 'GT Flexa';
+    font-style: normal;
+    color: #FFFFFF;
+  }
+  .content .text .text_small {
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 2.938rem;
+  }
+  .content .text .text_big {
+    font-weight: 500;
+    font-size: 4.5rem;
+    line-height: 5.5rem;
+  }
+  .content .part3 {
+    width: 33.375rem;
+    height: 12.5rem;
+    margin: auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .content .part3 .time {
+    width: 10.5rem;
+    height: 1.5rem;
+    margin-bottom: 1.563rem;
+    font-family: 'Avenir Next';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+  }
+  .content .part3 .time .showTime {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.5rem;
+    color: #2D2765;
+    background-color: #D7D4FC;
+  }
+  .content .part3 .part3_btm {
+    width: 33.375rem;
+    height: 9.375rem;
+    background-image: url("../assets/imgsforwork/time_bg.png");
+    background-size: cover;
+    background-color: #D7D4FC;
+  }
+  .content .part3 .part3_btm .part3_btm_left {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-direction: column;
+  }
+  .content .part3 .part3_btm .part3_btm_left .p_big {
+    font-size: 2.25rem;
+    line-height: 3.063rem;
+  }
+  .content .part3 .part3_btm .part3_btm_left .p_small {
+    font-size: 1.25rem;
+    line-height: 1.688rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right {
+    width: 70%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'GT Flexa';
+    font-style: normal;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_title {
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_content p {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_btn {
+    width: 12.875rem;
+    height: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background-color: #1E1F26;
+    color: #FFFFFF;
+    margin-top: 0.3rem;
+  }
+}
+/* 768 及其以下 */
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 7.813rem;
+    box-sizing: border-box;
+    position: relative;
+    z-index: -1;
+    width: 100rem;
+    height: 106.38rem;
+    overflow: hidden;
+    background-color: #2D2765;
+    background-image: url("../assets/imgsforwork/768_bg.png");
+    background-size: cover;
+  }
+  .content .personImg {
+    width: 58.333rem;
+    height: 85.938rem;
+    position: absolute;
+    right: -5.208rem;
+    background-image: url("../assets/imgsforwork/786_person1.png");
+    background-size: cover;
+    top: 7.813rem;
+    clip-path: polygon(32% 8%, 100% 0%, 100% 100%, 40% 100%, 0% 66%);
+    z-index: -1;
+  }
+  .content .text {
+    height: 50.26rem;
+    width: 56rem;
+  }
+  .content .text .text_small {
+    font-family: 'GT Flexa';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 4.167rem;
+    line-height: 6.12rem;
+    color: #FFFFFF;
+    padding-right: 5.208rem;
+  }
+  .content .text .text_big {
+    font-family: 'GT Flexa';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16.927rem;
+    line-height: 99%;
+    color: #FFFFFF;
+    width: 25rem;
+  }
+  .content .part3 {
+    margin-top: 4rem;
+    height: 35.156rem;
+  }
+  .content .part3 .time {
+    width: 31.25rem;
+    height: 4.688rem;
+    font-weight: 500;
+    font-size: 2.344rem;
+    line-height: 3.255rem;
+    color: #FFFFFF;
+  }
+  .content .part3 .time .showTime {
+    width: 3.906rem;
+    height: 4.297rem;
+    background-color: #D7D4FC;
+    display: inline-block;
+    text-align: center;
+    line-height: 4.688rem;
+    font-weight: 600;
+    font-size: 24px;
+    color: #2D2765;
+  }
+  .content .part3 .part3_btm {
+    width: 84.375rem;
+    height: 26.563rem;
+    background-image: url("../assets/imgsforwork/time_bg.png");
+    background-size: 100% 100%;
+    background-color: #D7D4FC;
+    margin-top: 6.25rem;
+  }
+  .content .part3 .part3_btm .part3_btm_left {
+    width: 30%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    flex-direction: column;
+  }
+  .content .part3 .part3_btm .part3_btm_left .p_big {
+    font-size: 5.469rem;
+    line-height: 7.422rem;
+  }
+  .content .part3 .part3_btm .part3_btm_left .p_small {
+    font-size: 3.385rem;
+    line-height: 4.688rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right {
+    width: 43.62rem;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Avenir Next';
+    font-style: normal;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_title {
+    font-weight: 500;
+    font-size: 3.385rem;
+    line-height: 4.167rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_content p {
+    font-weight: 400;
+    font-size: 2.344rem;
+    line-height: 3.255rem;
+  }
+  .content .part3 .part3_btm .part3_btm_right .right_btn {
+    width: 43.56rem;
+    height: 7.031rem;
+    background-color: #1E1F26;
+    font-size: 3.125rem;
+    line-height: 7.031rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1.563rem;
+  }
+}
+.part3_btm {
+  display: flex;
+  font-family: 'Avenir Next';
+  font-style: normal;
+  color: #1E1F26;
+}
