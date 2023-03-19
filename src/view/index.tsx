@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from 'react-i18next'
 import "./index.css";
  
 export const CouponBanner = () => {
 
   // 浏览器的高度 默认设置为0；
+  const { t, i18n } = useTranslation();
   const [width, setWidth] = useState(0); 
   const [hours, setHours] = useState(24);
   const [minutes, setMinutes] = useState(0);
@@ -59,11 +61,12 @@ export const CouponBanner = () => {
 
   return (
     <>
+      <button className="but" onClick={() => {i18n.changeLanguage(i18n.language == 'en' ? 'zh' : 'en')}}>切换{i18n.language == 'en' ? '中文' : '英文' }</button>
       <div className={'content'} >
         <div className="personImg" ></div>
         <div className="text">
           <p className="text_small">
-            Enjoy now your favorite brands with
+            {t("enjoy")}
           </p>
           <p className="text_big">
               30% off
@@ -86,9 +89,9 @@ export const CouponBanner = () => {
                 </div>
                 <div className="right_content">
                   {
-                    width >=768 ? <> <p> Aplicable to all items</p> <p>Min. order 10€. Valid for 30 days from now. </p> </> :
+                    width >=768 ? <> <p>{t("Aplicable")}</p> <p>Min. order 10€. Valid for 30 days from now. </p> </> :
                      <>
-                      <p>Save up to 20€. All items included.</p>
+                      <p>{t("save")}</p>
                       <p>Min. spend: 10,00€. Valid for 30 day(s)</p>
                      </>
                   }

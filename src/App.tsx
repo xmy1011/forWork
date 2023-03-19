@@ -1,5 +1,6 @@
 import React from 'react';
 import { CouponBanner } from './view';
+import './i18n';
 
 function App() {
   return (
